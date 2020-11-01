@@ -1,2 +1,4 @@
 [1029/162659.406:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
 [1030/101658.866:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1101/111923.407:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1101/113323.891:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Juliana Bernardes\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\8c9f0ce7-6646-421e-b236-054cfece1ae4: O sistema não pode encontrar o caminho especificado. (0x3)
