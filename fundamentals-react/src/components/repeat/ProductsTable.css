@@ -1,0 +1,13 @@
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 0 2rem;
+}
+
+.tableProducts {
+    display: flex;
+    justify-content: center;
+}
