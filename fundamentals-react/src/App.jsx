@@ -1,6 +1,8 @@
 import React from 'react'
 import './App.css'
 
+import UserInfo from './components/conditional/UserInfo'
+import EvenOrOdd from './components/conditional/EvenOrOdd'
 import ProductsTable from './components/repeat/ProductsTable'
 import StudentsList from './components/repeat/StudentsList'
 import Family from './components/basics/Family'
@@ -17,6 +19,13 @@ export default function App(props) {
             <h1>React fundamentals</h1>
 
             <div className="Cards">
+
+                <Card title="#08 - Conditional Rendering" color="#982395">
+                    <UserInfo user={{name: 'Paulo'}}></UserInfo>
+                    <UserInfo user={{}}></UserInfo>
+                    
+                    <EvenOrOdd number={20}></EvenOrOdd>
+                </Card>
 
                 <Card title="#07 - Repetition Chalenge" color="#3A9AD9">
                     <ProductsTable></ProductsTable>

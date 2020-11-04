@@ -11,3 +11,16 @@ td, th {
     display: flex;
     justify-content: center;
 }
+
+.tableProducts th {
+    background-color: rgb(24, 108, 182);
+    color: #FFF;
+}
+
+.tableProducts .Even {
+    background-color: #ddd;
+}
+
+.tableProducts .Odd {
+    background-color: #CCC;
+}
