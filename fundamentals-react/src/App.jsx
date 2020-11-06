@@ -1,6 +1,8 @@
 import React from 'react'
 import './App.css'
 
+import IndirectFather from './components/communication/IndirectFather'
+import DirectFather from './components/communication/DirectFather'
 import UserInfo from './components/conditional/UserInfo'
 import EvenOrOdd from './components/conditional/EvenOrOdd'
 import ProductsTable from './components/repeat/ProductsTable'
@@ -13,6 +15,7 @@ import WithParameter from './components/basics/WithParameter'
 import Fragments from './components/basics/Fragments'
 import Random from './components/basics/Random'
 
+
 export default function App(props) {
     return (
         <div className="App">
@@ -20,8 +23,16 @@ export default function App(props) {
 
             <div className="Cards">
 
+                <Card title="#10 - Indirect Communication" color="#8BAD39">
+                    <IndirectFather></IndirectFather>
+                </Card>
+
+                <Card title="#09 - Direct Communication" color="#59323C">
+                    <DirectFather></DirectFather>
+                </Card>
+
                 <Card title="#08 - Conditional Rendering" color="#982395">
-                    <UserInfo user={{name: 'Paulo'}}></UserInfo>
+                    {/* <UserInfo user={{name: 'Paulo'}}></UserInfo> */}
                     <UserInfo user={{}}></UserInfo>
                     
                     <EvenOrOdd number={20}></EvenOrOdd>
