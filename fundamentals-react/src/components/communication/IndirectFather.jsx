@@ -1,21 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import IndirectChild from './IndirectChild'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default props => {
 
-    let name = '?'
-    let age = 0
-    let developer = false
-
-    // name age isDev?
-    function provideInfo(nameParam, ageParam, developerParam) {
-        name = nameParam
-        age = ageParam
-        developer = developerParam
-        
-        console.log(nameParam, ageParam, developerParam);
+    const [name, setName] = useState('?')
+    const [age, setAge] = useState(0)
+    const [developer, setDeveloper] = useState(false)
+    
+    function provideInfo(name, age, developer) {
+        setName(name)
+        setAge(age)
+        setDeveloper(developer)
     }
+
 
     return (
         <div>
