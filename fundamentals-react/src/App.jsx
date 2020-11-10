@@ -27,7 +27,7 @@ export default function App(props) {
             <div className="Cards">
 
                 <Card title="#13 - Mega" color="#BADAB1">
-                    <Mega/>
+                    <Mega amount={8}/>
                 </Card>
 
                 <Card title="#12 - Counter" color="#424242">
