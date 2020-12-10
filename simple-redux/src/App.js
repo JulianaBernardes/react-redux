@@ -2,7 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 import Interval from './components/Interval'
-import Card from './components/Card'
+import Average from './components/Average'
+import Sum from './components/Sum'
+import Draw from './components/Draw'
 
 function App() {
   return (
@@ -12,9 +14,9 @@ function App() {
         <Interval>x</Interval>
       </div>
       <div className="line">
-        <Card title="Card 2" green>x</Card>
-        <Card title="Card 3" blue>y</Card>
-        <Card title="Card 4" purple>y</Card>
+        <Average></Average>
+        <Sum></Sum>
+        <Draw></Draw>
       </div>
     </div>
   );
