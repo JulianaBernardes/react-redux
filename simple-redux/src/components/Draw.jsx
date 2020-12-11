@@ -4,13 +4,15 @@ import Card from './Card'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default props => {
+    const { min, max } = props
+    const random = parseInt(Math.random() * (max - min) + min)
     return (
 
         <Card title="Numbers Draw" purple>
             <div>
                 <span>
                     <span>Result:</span>
-                    <strong>8</strong>
+                    <strong>{ random }</strong>
                 </span>
             </div>
         </Card>
